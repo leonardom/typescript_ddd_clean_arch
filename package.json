@@ -1,0 +1,15 @@
+{
+  "name": "ccca-ecommerce-mono",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:catalog:api": "pnpm --filter=catalog start:api",
+    "start:checkout:api": "pnpm --filter=checkout start:api",
+    "start:freight:api": "pnpm --filter=freight start:api",
+    "start:auth:api": "pnpm --filter=auth start:api"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
